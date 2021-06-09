@@ -134,6 +134,11 @@ span{
     }
   
   }
+@media(min-width:450px) and (max-width: 767px){
+    .footer{
+        color:black;
+    }
+}
 
   
   @media (max-width:450px){
