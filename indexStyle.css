@@ -145,7 +145,11 @@ span{
     }
 
   }
-
+@media (min-width:1350px){
+    .image-section{
+        margin-top:5% ;
+    }
+}
   @media (max-width:768px){
     body{
     background: #000 url('https://images.unsplash.com/photo-1477346611705-65d1883cee1e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
