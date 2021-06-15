@@ -1,5 +1,6 @@
 body{
     font-family: 'Red Hat Display', sans-serif;
+    overflow: hidden;
 }
 .timer{
     
@@ -64,6 +65,25 @@ span{
         display: flex;
         justify-content: space-around;
         padding-top: 10%;
+    }
+    .image-section{
+        display: flex;
+        flex-flow: row;
+    }
+    .image{
+        display: flex;
+        flex-direction: row;
+        flex-flow:wrap;
+        padding-top:50;
+        
+    }
+    .about{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .title{
+        text-align: center;
     }
 }
 @media (min-width:769px){
